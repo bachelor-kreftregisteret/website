@@ -1,13 +1,13 @@
 <script>
     export let title;
     export let description;
-    export let link;
+    export let file;
 </script>
 
 <div>
     <h3>{title}</h3>
     <p>{description}</p>
-    <a>Last ned</a>
+    <a href={file} download={title}>Last ned</a>
 </div>
 <style>
     h3 {

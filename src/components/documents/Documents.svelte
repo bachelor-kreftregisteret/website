@@ -3,10 +3,10 @@
 </script>
 
 <div>
-    <Document title="Statusrapport" description="Tidlig status på hva vi har gjort for å skaffe et prosjekt"/>
-    <Document title="Prosjektskisse" description="Skisse av prosjektet og info om arbeidsgiver"/>
-    <Document title="Forprosjekt" description="Analyse av prosjektet og planlegging av arbeidet"/>
-    <Document title="Prosjektrapport" description="Sluttdokumentasjonen av prosessen"/>
+    <Document file="documents/Statusrapport.pdf" title="Statusrapport" description="Tidlig status på hva vi har gjort for å skaffe et prosjekt"/>
+    <Document file="documents/Prosjektskisse.pdf" title="Prosjektskisse" description="Skisse av prosjektet og info om arbeidsgiver"/>
+    <Document file="documents/Forprosjektrapport.pdf" title="Forprosjekt" description="Analyse av prosjektet og planlegging av arbeidet"/>
+    <Document file="" title="Prosjektrapport" description="Sluttdokumentasjonen av prosessen"/>
 </div>
 
 <style>
