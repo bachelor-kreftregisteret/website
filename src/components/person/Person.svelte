@@ -20,6 +20,7 @@
         margin: 1em;
         border: solid 1px #e2e2e2;;
         font-family: 'Arial', sans-serif;
+        background-color: #FFFFFF;
     }
 
     p {

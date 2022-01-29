@@ -17,6 +17,5 @@
         justify-content: center;
         background-color: #000064;
         padding: 1em 0;
-        margin-bottom: 2em;
     }
 </style>

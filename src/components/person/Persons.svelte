@@ -18,7 +18,9 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
-        margin-bottom: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        background-color: #FCFCFC;
     }
 
 </style>
