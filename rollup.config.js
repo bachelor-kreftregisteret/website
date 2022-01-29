@@ -4,7 +4,6 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import css from 'rollup-plugin-css-only';
-import run from '@jamesives/github-pages-deploy-action'
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -72,13 +71,6 @@ export default {
 		production && terser(),
 
 		// Deploy
-		run({
-			branch: 'gh-pages',
-			folder: 'public',
-			repositoryName: 'bachelor-kreftregisteret/website',
-			silent: true,
-			workspace: 'src'
-		})
 	],
 	watch: {
 		clearScreen: false
