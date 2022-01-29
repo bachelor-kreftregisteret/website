@@ -73,7 +73,7 @@ export default {
 
 		// Deploy
 		run({
-			token: process.env['ACCESS_TOKEN'],
+			token: process.env.ACCESS_TOKEN,
 			branch: 'gh-pages',
 			folder: 'public',
 			repositoryName: 'bachelor-kreftregisteret/website',
