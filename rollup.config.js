@@ -29,12 +29,6 @@ function serve() {
 	};
 }
 
-run({
-	branch: 'gh-pages',
-	folder: 'public',
-	silent: true
-})
-
 export default {
 	input: 'src/main.js',
 	output: {
@@ -75,7 +69,16 @@ export default {
 
 		// If we're building for production (npm run build
 		// instead of npm run dev), minify
-		production && terser()
+		production && terser(),
+
+		// Deploy
+		run({
+			branch: 'gh-pages',
+			folder: 'public',
+			repositoryName: 'bachelor-kreftregisteret/website',
+			silent: true,
+			workspace: 'src'
+		})
 	],
 	watch: {
 		clearScreen: false
