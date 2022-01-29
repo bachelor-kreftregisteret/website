@@ -13,11 +13,11 @@
 <style>
     div {
         box-sizing: border-box;
-        width: min-content;
+        width: 15em;
         border: 5px solid #000064;
         border-radius: 1em;
         box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-        padding: 1em 4em;
+        padding: 0 1em;
         margin: 1em;
         background-color: #F4F4F4;
     }

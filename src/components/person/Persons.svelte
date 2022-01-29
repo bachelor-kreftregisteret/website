@@ -1,21 +1,21 @@
 <script>
     import Person from './Person.svelte'
+    let dummytext = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras feugiat tellus in lacus tempus vestibulum. "
 </script>
 
-<div>
-<Person name="Tom" description="Student"/>
-<Person name="Hajin" description="Student"/>
-<Person name="Jørund" description="Student"/>
-<Person name="Nikola" description="Student"/>
-<Person name="Ola" description="Student"/>
+<div class="container">
+<Person name="Tom H. Basmo" description={dummytext}/>
+<Person name="Hajin Barzingi" description={dummytext}/>
+<Person name="Jørund T. Løvlien" description={dummytext}/>
+<Person name="Nikola Dordevic" description={dummytext}/>
+<Person name="Ola G. Berg" description={dummytext}/>
 </div>
 
 <style>
-    div {
+    .container {
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
         justify-content: space-evenly;
-        flex-wrap: wrap;
         align-items: center;
     }
 
