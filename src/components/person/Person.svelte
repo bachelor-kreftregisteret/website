@@ -5,7 +5,7 @@
     export let link;  // For github / linkedin etc.
 </script>
 
-<div class="box">
+<div>
     <p>{name}</p>
     <p>{description}</p>
 </div>

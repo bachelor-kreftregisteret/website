@@ -11,7 +11,7 @@
         color: black;
         text-transform: uppercase;
         font-size: 3em;
-        font-family: Arial, sans-serif;
+        font-family: 'Arial', sans-serif;
         margin-bottom: 0;
         padding-bottom: 0;
         wrap-option: nowrap;
@@ -21,7 +21,7 @@
         color: black;
         font-size: 1.5em;
         font-weight: 100;
-        font-family: Arial, monospace;
+        font-family: 'Arial', sans-serif;
         margin-bottom: 2em;
     }
 
