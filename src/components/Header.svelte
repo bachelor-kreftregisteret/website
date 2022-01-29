@@ -1,16 +1,16 @@
 <script>
 
 </script>
-
-<h1>BACHELORGRUPPE 2</h1>
-<h2>System for behandling av XML-meldinger</h2>
+<div>
+    <h1>BACHELORGRUPPE 2</h1>
+    <h2>System for behandling av XML-meldinger</h2>
+</div>
 
 <style>
     h1 {
         color: black;
         text-transform: uppercase;
         font-size: 3em;
-        font-weight: 100;
         font-family: Arial, sans-serif;
         margin-bottom: 0;
         padding-bottom: 0;
@@ -23,5 +23,14 @@
         font-weight: 100;
         font-family: Arial, monospace;
         margin-bottom: 2em;
+    }
+
+    div {
+        display: flex;
+        flex-flow: column wrap;
+        background-color: rgb(255, 220, 0);
+        flex: 0 0 100%;
+        margin: 0 0 2em 0;
+        padding: 2em 0;
     }
 </style>
