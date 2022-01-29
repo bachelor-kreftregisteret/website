@@ -18,6 +18,7 @@
         flex-flow: row wrap;
         justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 2em;
     }
 
 </style>

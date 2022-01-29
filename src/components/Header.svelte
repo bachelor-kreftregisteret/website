@@ -12,25 +12,27 @@
         text-transform: uppercase;
         font-size: 3em;
         font-family: 'Arial', sans-serif;
-        margin-bottom: 0;
+        margin: 0;
         padding-bottom: 0;
         wrap-option: nowrap;
     }
 
     h2 {
         color: black;
+        margin-top: 1em;
         font-size: 1.5em;
         font-weight: 100;
         font-family: 'Arial', sans-serif;
-        margin-bottom: 2em;
     }
 
     div {
         display: flex;
         flex-flow: column wrap;
+        justify-content: center;
         background-color: white;
         flex: 0 0 100%;
-        margin: 0 0 2em 0;
         padding: 2em 0;
+        margin: 3em 0;
+        min-height: 10em;
     }
 </style>
