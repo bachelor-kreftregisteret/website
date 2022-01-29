@@ -28,7 +28,7 @@
     div {
         display: flex;
         flex-flow: column wrap;
-        background-color: rgb(255, 220, 0);
+        background-color: white;
         flex: 0 0 100%;
         margin: 0 0 2em 0;
         padding: 2em 0;

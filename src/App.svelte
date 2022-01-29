@@ -8,7 +8,6 @@
 <main>
     <Heading/>
     <Header/>
-    <Heading/>
     <Persons/>
     <Footer/>
 </main>
