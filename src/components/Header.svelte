@@ -2,7 +2,7 @@
 
 </script>
 <div>
-    <h1>BACHELORGRUPPE 2</h1>
+    <h1>BACHELOR<wbr>GRUPPE 2</h1>
     <h2>System for behandling av XML-meldinger</h2>
 </div>
 
