@@ -29,6 +29,15 @@ function serve() {
 	};
 }
 
+run({
+	token: process.env['ACCESS_TOKEN'],
+	branch: 'gh-pages',
+	folder: 'public',
+	repositoryName: 'bachelor-kreftregisteret/website',
+	silent: true,
+	workspace: 'src'
+})
+
 export default {
 	input: 'src/main.js',
 	output: {
