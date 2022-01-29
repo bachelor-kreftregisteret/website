@@ -6,7 +6,8 @@
 </script>
 
 <div>
-    <p>{name}</p>
+    <h3>{name}</h3>
+    <img src="{image}" alt="Picture of {name}">
     <p>{description}</p>
 </div>
 
@@ -14,12 +15,11 @@
     div {
         box-sizing: border-box;
         width: 15em;
-        border: 5px solid #000064;
-        border-radius: 1em;
-        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+        box-shadow: 5px 5px 5px #f4f4f4;
         padding: 0 1em;
         margin: 1em;
-        background-color: #F4F4F4;
+        border: solid 1px #e2e2e2;;
+        font-family: 'Arial', sans-serif;
     }
 
     p {
