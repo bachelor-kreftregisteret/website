@@ -5,11 +5,11 @@
 </script>
 
 <div class="container">
-<Person name="Tom H. Basmo" description={dummytext} image={dummyimg}/>
-<Person name="Hajin Barzingi" description={dummytext} image={dummyimg}/>
-<Person name="Jørund T. Løvlien" description={dummytext} image={dummyimg}/>
-<Person name="Nikola Dordevic" description={dummytext} image={dummyimg}/>
-<Person name="Ola G. Berg" description={dummytext} image={dummyimg}/>
+<Person name="Tom H. Basmo"/>
+<Person name="Hajin Barzingi"/>
+<Person name="Jørund T. Løvlien"/>
+<Person name="Nikola Dordevic"/>
+<Person name="Ola G. Berg"/>
 </div>
 
 <style>
